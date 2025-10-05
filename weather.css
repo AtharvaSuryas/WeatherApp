@@ -13,7 +13,7 @@ body{
     max-width: 400px;
     /* background: linear-gradient(150deg, #32dfc2, #0e1452); */
     background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L25zMTc0MjUtaW1hZ2Uta3d2eWF1ejEuanBn.jpg");
-    color: #1f3e00;
+    color: #333333; /* dark gray */
     margin: 100px, auto 0;
     border-radius: 15px;
     padding: 20px;
@@ -104,11 +104,14 @@ font-size: 12px;
 .col{
     display: flex;
     align-items: center;
-    text-align:left;
+    text-align: left;
+    justify-content: center;
+
 }
 .col img{
-    width: 40px;
-    margin-right: 10px;
+    text-align: left;
+    justify-content: space-between;
+    width: 50%;
 }
 .humidity .wind {
 font-size: 15px;
@@ -127,11 +130,13 @@ margin-top: 6px;
     display: flex;
     align-items: center;
     text-align: left;
+    justify-content: center;
 }
 
 .tempdetails img{
-    width: 50px;
-    margin-left: 10px;
+    text-align: left;
+    justify-content: space-between;
+    width: 50%;
 }
 
 .minTemp .maxTemp{
