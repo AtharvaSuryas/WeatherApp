@@ -37,15 +37,15 @@ async function checkweather(city) {
         if(data.weather[0].main == "Clouds"){
         backgroundImg.style.backgroundImage = "url('https://w0.peakpx.com/wallpaper/918/421/HD-wallpaper-partly-cloudy-clouds-nature-sky-weather.jpg')";
     }else if(data.weather[0].main == "Clear"){
-        weatherIcon.src = "./images/clear.png";
+        backgroundImg.style.backgroundImage = "url('https://i.pinimg.com/736x/47/7e/2b/477e2b91c2d1d31245a25d0f0ce9571f.jpg')";
     }else if(data.weather[0].main == "Rain"){
-        weatherIcon.src = "./images/rain.png";
+        backgroundImg.style.backgroundImage = "url('https://img.freepik.com/premium-vector/rainy-season-cloud-sale-texture-background-design-with-umbrella_278222-11426.jpg?semt=ais_hybrid&w=740&q=80')";
     }else if(data.weather[0].main == "Drizzle"){
-        weatherIcon.src = "./images/drizzle.png";
+        backgroundImg.style.backgroundImage = "url('https://kunal24borah.wordpress.com/wp-content/uploads/2013/10/rain.jpg')";
     }else if(data.weather[0].main == "Snow"){
-        weatherIcon.src = "./images/snow.png";
+        backgroundImg.style.backgroundImage = "url('https://media.istockphoto.com/id/589949898/vector/falling-snow-background.jpg?s=612x612&w=0&k=20&c=Vsf1kwzwTvkWJAWqtH-VuMHRoTAaiPINhd1cH7ZsptI=')";
     }else if(data.weather[0].main == "Mist"){
-        weatherIcon.src = "./images/mist.png"
+        backgroundImg.style.backgroundImage = "url('https://www.shutterstock.com/image-photo/beautiful-misty-sunrise-aerial-view-600nw-159662996.jpg')";
     }
 
     document.querySelector(".weather").style.display = "block";
